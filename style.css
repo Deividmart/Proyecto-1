@@ -1,0 +1,192 @@
+body.page-body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9fafb; 
+    color: #1f2937; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page-header {
+    background-color: #3b82f6;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .header-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .site-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    transition: text-decoration 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .main-content {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .intro-section {
+    text-align: center;
+  }
+  
+  .intro-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+  
+  .intro-text {
+    font-size: 1rem;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .skills-section,
+  .exercises-section,
+  .multimedia-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 2px solid #3b82f6;
+    display: inline-block;
+    padding-bottom: 0.25rem;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .skills-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    border: 1px solid transparent;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border-color: #3b82f6;
+  }
+  
+  .icon {
+    color: #3b82f6;
+    font-size: 1.875rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .card-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  
+  .exercises-text,
+  .multimedia-text,
+  .voice-recorder-text {
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+  }
+  
+  .placeholder {
+    margin-top: 1rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    text-align: center;
+    color: #6b7280;
+    font-style: italic;
+    border: 1px solid transparent;
+    transition: border-color 0.2s ease;
+  }
+  
+  .placeholder:hover {
+    border-color: #3b82f6;
+  }
+  
+  .multimedia-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .multimedia-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .video-frame {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 0.5rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .microphone-icon {
+    color: #3b82f6;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .page-footer {
+    background-color: #3b82f6;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
